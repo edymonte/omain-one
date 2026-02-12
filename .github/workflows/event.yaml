@@ -1,6 +1,5 @@
 name: Push Events
 on: 
-  push: 
   schedule:
     - cron: '*/5 * * * *'
 jobs:
